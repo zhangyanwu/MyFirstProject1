@@ -150,10 +150,10 @@
             android:name=".HomeWork34Activity"
             android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity
-            android:name=".HomeWork36Activity"
+            android:name=".HomeWork35Activity"
             android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity
-            android:name=".lx01Acitivity"
+            android:name=".HomeWork36Activity"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
