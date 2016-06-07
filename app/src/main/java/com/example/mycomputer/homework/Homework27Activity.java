@@ -35,7 +35,6 @@ public class HomeWork27Activity extends BaseActivity {
             }
         }
     };
-
     @Override
     protected void initContentView(Bundle savedInstanceState) {
         setContentView(R.layout.homework27_layout);
