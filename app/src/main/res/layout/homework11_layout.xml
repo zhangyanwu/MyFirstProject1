@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RadioGroup
+            android:id="@+id/rg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="42dp"
+            android:orientation="horizontal">
+
+
+            <RadioButton
+                android:id="@+id/nan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/nv"
+                android:layout_marginEnd="30dp"
+                android:layout_toStartOf="@+id/nv"
+                android:checked="true"
+                android:text="男"
+                android:textSize="20dp" />
+
+            <RadioButton
+                android:id="@+id/nv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/rg"
+                android:layout_toEndOf="@+id/chakan"
+                android:text="女"
+                android:textSize="20dp" />
+
+        </RadioGroup>
+
+        <CheckBox
+            android:id="@+id/zhuanke"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/rg"
+            android:layout_below="@+id/rg"
+            android:layout_marginTop="10dp"
+            android:checked="true"
+            android:text="专科"
+            android:textSize="20dp" />
+
+        <CheckBox
+            android:id="@+id/benke"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/zhuanke"
+            android:layout_below="@+id/zhuanke"
+            android:layout_marginTop="10dp"
+            android:text="本科"
+            android:textSize="20dp" />
+
+        <CheckBox
+            android:id="@+id/yanjiusheng"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/benke"
+            android:layout_below="@+id/benke"
+            android:layout_marginTop="10dp"
+            android:text="研究生"
+            android:textSize="20dp" />
+
+
+        <Button
+            android:id="@+id/chakan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:onClick="chakan"
+            android:text="提  交"
+            android:textSize="20dp" />
+
+    </RelativeLayout>
+</LinearLayout>

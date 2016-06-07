@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入图片的网址!"
+        android:text="http://img.mp.itc.cn/upload/20160530/75a59ee8d2d84212a4cdbcdda8cd028a_th.jpg"
+        android:id="@+id/myet"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入要保存文件的名字！"
+        android:id="@+id/myet1"/>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/mybtn"
+            android:onClick="download"
+            android:text="下载"
+            android:layout_alignParentTop="true"
+            android:layout_toStartOf="@+id/button37"
+            android:layout_marginEnd="56dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="open"
+            android:text="打开下载的图片"
+            android:layout_gravity="center_horizontal"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="49dp"
+            android:id="@+id/button37" />
+    </RelativeLayout>
+
+    <ProgressBar
+        android:id="@+id/bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="100"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/show"/>
+
+
+</LinearLayout>

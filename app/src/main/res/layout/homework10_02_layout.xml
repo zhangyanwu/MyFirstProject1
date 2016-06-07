@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="#EFF0F3"
+    >
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:id="@+id/imageView"
+        android:src="@drawable/qqq"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:hint="请输入手机号码！"
+            android:paddingTop="10dp"
+            android:textSize="20dp"
+            android:background="#ffffffff"
+            android:id="@+id/textView5"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:hint="密码！"
+            android:paddingTop="10dp"
+            android:textSize="20dp"
+            android:background="#ffffffff"
+            android:id="@+id/textView6"
+            android:layout_below="@+id/textView5"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp" />
+
+    </RelativeLayout>
+
+
+    </LinearLayout>
