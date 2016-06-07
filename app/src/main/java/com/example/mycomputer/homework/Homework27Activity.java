@@ -21,7 +21,7 @@ import java.net.URL;
 /**
  * Created by Administrator on 2016/6/2.
  */
-public class Homework27Activity extends BaseActivity {
+public class HomeWork27Activity extends BaseActivity {
     ImageView show;
     EditText et;
     EditText et1;
@@ -53,7 +53,7 @@ public class Homework27Activity extends BaseActivity {
                     .setPositiveButton("确定", new DialogInterface.OnClickListener() {
                         @Override
                         public void onClick(DialogInterface dialog, int which) {
-                            Toast.makeText(Homework27Activity.this, "你确定了！", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(HomeWork27Activity.this, "你确定了！", Toast.LENGTH_SHORT).show();
                         }
                     }).create();
             b.show();
@@ -65,7 +65,7 @@ public class Homework27Activity extends BaseActivity {
                     .setPositiveButton("确定", new DialogInterface.OnClickListener() {
                         @Override
                         public void onClick(DialogInterface dialog, int which) {
-                            Toast.makeText(Homework27Activity.this, "你确定了！", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(HomeWork27Activity.this, "你确定了！", Toast.LENGTH_SHORT).show();
                         }
                     }).create();
             b.show();

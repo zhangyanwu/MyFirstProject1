@@ -132,7 +132,7 @@
             android:name=".HomeWork26Activity"
             android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity
-            android:name=".Homework27Activity"
+            android:name=".HomeWork27Activity"
             android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity
             android:name=".HomeWork30_03Activity"

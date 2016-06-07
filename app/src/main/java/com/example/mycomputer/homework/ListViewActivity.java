@@ -25,7 +25,7 @@ public class ListViewActivity extends BaseActivity {
             HomeWork11Activity.class, HomeWork12Activity.class, HomeWork12_02Activity.class, HomeWork13Activity.class, HomeWork14Activity.class,
             HomeWork15Activity.class, HomeWork16Activity.class, HomeWork17Activity.class, HomeWork18Activity.class, HomeWork19Activity.class,
             HomeWork20Activity.class, HomeWork23Activity.class, HomeWork23_01Activity.class, HomeWork24Activity.class, HomeWork24_01Activity.class,
-            HomeWork25Activity.class, HomeWork26Activity.class, Homework27Activity.class, HomeWork30_03Activity.class, HomeWork32_01Activity.class,
+            HomeWork25Activity.class, HomeWork26Activity.class, HomeWork27Activity.class, HomeWork30_03Activity.class, HomeWork32_01Activity.class,
             HomeWork33Activity.class, HomeWork34Activity.class, HomeWork36Activity.class};
     ListView listView;
 
