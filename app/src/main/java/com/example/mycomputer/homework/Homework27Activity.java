@@ -105,7 +105,7 @@ public class HomeWork27Activity extends BaseActivity {
                 } catch (FileNotFoundException e) {
                     e.printStackTrace();
                 }
-            catch (IOException e) {
+                catch (IOException e) {
                     e.printStackTrace();
                 }
                 super.run();
