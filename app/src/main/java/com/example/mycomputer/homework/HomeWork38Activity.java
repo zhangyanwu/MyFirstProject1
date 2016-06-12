@@ -101,9 +101,7 @@ public class HomeWork38Activity extends BaseActivity {
                         }).show();
             }
         });
-
     }
-
     public boolean isChecked(String phone) {
         for (String s1 : sendList) {
             if (s1.equals(phone)) {

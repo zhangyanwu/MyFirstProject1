@@ -135,6 +135,12 @@
             android:name=".HomeWork27Activity"
             android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity
+            android:name=".HomeWork28Activity"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".HomeWork28ActivityBookDetail"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
             android:name=".HomeWork30_03Activity"
             android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity
@@ -153,8 +159,18 @@
             android:name=".HomeWork35Activity"
             android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity
-            android:name=".HomeWork36Activity"
+        android:name=".HomeWork36Activity"
+        android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".HomeWork38Activity"
             android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".HomeWork41Activity"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".HuaBanActivity"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+
     </application>
 
 </manifest>

@@ -43,7 +43,7 @@ public abstract class BaseActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()){
             case R.id.normal_btn:
-                new AlertDialog.Builder(this).setMessage("张沿伍").setPositiveButton("确定", new DialogInterface.OnClickListener() {
+                new AlertDialog.Builder(this).setTitle("关于作者").setMessage("张沿伍").setPositiveButton("确定", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
 
