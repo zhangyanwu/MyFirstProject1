@@ -2,14 +2,19 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
-    <QuickContactBadge
-        android:layout_width="wrap_content"
+    <EditText
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/quickContactBadge"
-        android:src="@drawable/img3"/>
+        android:hint="股票号"
+        android:id="@+id/gp"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="点击图片进入电话本"
-        android:textSize="20dp"/>
+        android:id="@+id/cha"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="查看股票"
+        android:onClick="findgupiao"/>
+
 </LinearLayout>

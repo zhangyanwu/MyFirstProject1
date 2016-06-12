@@ -3,6 +3,8 @@ package com.example.mycomputer.homework;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.os.Environment;
+import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.Button;
@@ -19,9 +21,9 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * Created by Administrator on 2016/6/3.
+ * Created by Administrator on 2016/6/12.
  */
-public class HomeWork32_01Activity extends BaseActivity {
+public class Getupimg extends BaseActivity{
     ListView listView;
     TextView textView;
     File currentParent;
@@ -42,23 +44,21 @@ public class HomeWork32_01Activity extends BaseActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view,
                                     int position, long id) {
-                if (currentFiles[position].isFile()) {
-                    try {
-                        if (currentFiles[position].getCanonicalPath().toString().contains(".jpg") || currentFiles[position].getCanonicalPath().toString().contains(".png")) {
+                if(currentFiles[position].isFile()){
+                    try{
+                        if(currentFiles[position].getCanonicalPath().toString().contains(".png")||currentFiles[position].getCanonicalPath().toString().contains(".jpg")){
                             Intent i = new Intent();
-                            i.setAction(Intent.ACTION_VIEW);
-                            i.setDataAndType(Uri.fromFile(currentFiles[position]), "image/*");
-                            startActivity(i);
+                            i.putExtra("birth",currentFiles[position].getAbsolutePath());
+                            setResult(123,i);
+                            finish();
                         }
-                    } catch (IOException e) {
-                        e.printStackTrace();
+                    }catch(Exception e){
                     }
-                    return;
+                    return ;
                 }
                 File[] tmp = currentFiles[position].listFiles();
-
                 if (tmp == null || tmp.length == 0) {
-                    Toast.makeText(HomeWork32_01Activity.this
+                    Toast.makeText(Getupimg.this
                             , "此路径下没有文件",
                             Toast.LENGTH_SHORT).show();
                 } else {

@@ -23,7 +23,7 @@ public class HomeWork35Activity extends BaseActivity {
     GestureOverlayView gestureView;
 
     @Override
-    protected void initContentView(Bundle savedInstanceState) throws IOException {
+    protected void initContentView(Bundle savedInstanceState){
         setContentView(R.layout.homework35_layout);
         editText = (EditText) findViewById(R.id.gesture_name);
         gestureView = (GestureOverlayView) findViewById(R.id.gesture);

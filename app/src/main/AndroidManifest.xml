@@ -150,11 +150,24 @@
             android:name=".HomeWork34Activity"
             android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity
+            android:name=".HomeWork35Activity"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
             android:name=".HomeWork36Activity"
             android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity
-            android:name=".lx01Acitivity"
+            android:name=".gupiaoActivity"
             android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".studentActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+        <activity
+            android:name=".Getupimg"
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
     </application>
 
 </manifest>
