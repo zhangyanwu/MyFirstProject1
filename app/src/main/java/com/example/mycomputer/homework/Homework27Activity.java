@@ -35,7 +35,6 @@ public class HomeWork27Activity extends BaseActivity {
             }
         }
     };
-
     @Override
     protected void initContentView(Bundle savedInstanceState) {
         setContentView(R.layout.homework27_layout);
@@ -106,7 +105,7 @@ public class HomeWork27Activity extends BaseActivity {
                 } catch (FileNotFoundException e) {
                     e.printStackTrace();
                 }
-            catch (IOException e) {
+                catch (IOException e) {
                     e.printStackTrace();
                 }
                 super.run();
