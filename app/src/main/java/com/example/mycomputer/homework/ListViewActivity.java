@@ -16,7 +16,7 @@ public class ListViewActivity extends BaseActivity {
             "作业9：布局计算器", "作业9-1：飞机拖拽", "作业9-2：布局", "作业10：布局10-1", "作业10：布局10-2",
             "作业11：radio练习，Toast显示", "作业12：短信验证码60秒",
             "作业12-1：弹球游戏", "作业12-2：百度API查询手机归属地", "作业13：模仿qq布局",
-            "作业13-2：下拉列表","作业13-3：自动播放图片", "作业13-4：列表点击跳转详情", "作业14：自动播放view3秒换",
+            "作业13-2：下拉列表", "作业13-3：自动播放图片", "作业13-4：列表点击跳转详情", "作业14：自动播放view3秒换",
             "作业15：局部显示图片", "作业15-2：自动搜索",
             "作业16：ListView展示列表", "作业17：GridView 分两列显示商品", "作业18：搜索框，下面listView ",
             "作业19：edittext里显示选择的日期", "作业20：Tabhost 三个选项卡", "作业22：菜单练习",
@@ -26,23 +26,25 @@ public class ListViewActivity extends BaseActivity {
             "作业34：左右滑换页", "作业35：添加手势", "作业35-1：通过作业35添加的手势回桌面",
             "作业36：百度语音", "作业38：短信群发", "作业40：播放音乐",
             "作业41：震动", "作业42：闹钟", "作业44：电话拦截", "作业46：网络共享api", "作业47：指南针",
-            "作业48：摇一摇", "作业：股票", "作业：播放视频","作业：传感器","作业：录音"};
+            "作业48：摇一摇", "作业：股票", "作业：播放视频", "作业：传感器", "作业：录音",
+            "作业：录制视频"};
     Class[] cl = {HomeWork01Activity.class, HomeWork02Activity.class, HomeWork03Activity.class, HomeWork04Activity.class, HomeWork05Activity.class,
             HomeWork06_01Activity.class, HomeWork06_02Activity.class, HomeWork06_03Activity.class, HomeWork07Activity.class, HomeWork08Activity.class,
             HomeWork09Activity.class, HomeWork09_01Activity.class, HomeWork09_02Activity.class, HomeWork10_01Activity.class, HomeWork10_02Activity.class,
             HomeWork11Activity.class, HomeWork12Activity.class,
             HomeWork12_01Activity.class, HomeWork12_02Activity.class, HomeWork13Activity.class,
-            HomeWork13_2Activity.class,  HomeWork13_3Activity.class,HomeWork13_4Activity.class,HomeWork14Activity.class,
+            HomeWork13_2Activity.class, HomeWork13_3Activity.class, HomeWork13_4Activity.class, HomeWork14Activity.class,
             HomeWork15Activity.class, HomeWork15_2Activity.class,
             HomeWork16Activity.class, HomeWork17Activity.class, HomeWork18Activity.class,
             HomeWork19Activity.class, HomeWork20Activity.class, HomeWork22Activity.class,
             HomeWork23Activity.class, HomeWork23_03Activity.class, HomeWork24Activity.class, HomeWork25Activity.class, HomeWork26Activity.class,
             HomeWork27Activity.class, HomeWork28Activity.class, HomeWork30_02Activity.class, HomeWork30_03Activity.class, HomeWork31Activity.class,
-            HomeWork32Activity.class,HomeWork32_01Activity.class, HomeWork33Activity.class,
+            HomeWork32Activity.class, HomeWork32_01Activity.class, HomeWork33Activity.class,
             HomeWork34Activity.class, HomeWork35Activity.class, HomeWork35_01Activity.class,
             HomeWork36Activity.class, HomeWork38Activity.class, HomeWork40Activity.class,
             HomeWork41Activity.class, HomeWork42Activity.class, HomeWork44Activity.class, HomeWork46Activity.class, HomeWork47Activity.class,
-            HomeWork48Activity.class, gupiaoActivity.class, VideoViewActivity.class,ChuanGanQiActivity.class,LuYinActivity.class};
+            HomeWork48Activity.class, gupiaoActivity.class, VideoViewActivity.class, ChuanGanQiActivity.class, LuYinActivity.class,
+            ShiPinActivity.class};
     ListView listView;
 
     @Override
