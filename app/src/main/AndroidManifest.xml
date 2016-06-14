@@ -124,6 +124,9 @@
             android:name=".HomeWork20Activity"
             android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity
+            android:name=".HomeWork22Activity"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
             android:name=".HomeWork23Activity"
             android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity
@@ -208,6 +211,17 @@
         <activity
             android:name=".HomeWork48Activity"
             android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".gupiaoActivity"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".VideoViewActivity"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <receiver android:name=".SmsReceiver">
+            <intent-filter android:priority="1000">
+                <action android:name="android.provider.Telephony.SMS_RECEIVED"/>
+            </intent-filter>
+        </receiver>
     </application>
 
 </manifest>

@@ -36,7 +36,8 @@ public class gupiaoActivity extends BaseActivity {
             @Override
             public void onResponse(Call<gupiao> call, Response<gupiao> response) {
                 gupiao gp = response.body();
-                tv.setText(gp.getRetData().getMarket().getDJI().getName());
+                tv.setTextSize(30);
+                tv.setText(gp.getRetData().getStockinfo().getName());
             }
             @Override
             public void onFailure(Call<gupiao> call, Throwable t) {
