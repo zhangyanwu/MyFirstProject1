@@ -27,7 +27,7 @@ public abstract class BaseActivity extends AppCompatActivity {
         }
         Toolbar t= (Toolbar) findViewById(R.id.toolbar);
 //        setSupportActionBar(t);
-        getSupportActionBar().setTitle("啥玩意儿");
+        getSupportActionBar().setTitle("马什么梅呀？");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
     }
