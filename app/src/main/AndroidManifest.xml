@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.mycomputer.homework">
+
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.BLUETOOTH" />
     <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY" />
@@ -81,19 +82,31 @@
             android:name=".HomeWork12Activity"
             android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity
+            android:name=".HomeWork12_01Activity"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
             android:name=".HomeWork12_02Activity"
             android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity
-            android:name=".HomeWork12_03Activity"
+            android:name=".HomeWork13Activity"
             android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity
-            android:name=".HomeWork13Activity"
+            android:name=".HomeWork13_2Activity"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".HomeWork13_4Activity"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".HomeWork13_4Activity2"
             android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity
             android:name=".HomeWork14Activity"
             android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity
             android:name=".HomeWork15Activity"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".HomeWork15_2Activity"
             android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity
             android:name=".HomeWork16Activity"
@@ -114,13 +127,10 @@
             android:name=".HomeWork23Activity"
             android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity
-            android:name=".HomeWork23_01Activity"
+            android:name=".HomeWork23_03Activity"
             android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity
             android:name=".HomeWork24Activity"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
-        <activity
-            android:name=".HomeWork24_01Activity"
             android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity
             android:name=".HomeWork25Activity"
@@ -135,10 +145,22 @@
             android:name=".HomeWork27Activity"
             android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity
+            android:name=".HomeWork28Activity"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".HomeWork28ActivityBookDetail"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
             android:name=".HomeWork30_03Activity"
             android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity
-            android:name=".qiu"
+            android:name=".HomeWork31Activity"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".HomeWork31Activity2"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".HomeWork32Activity"
             android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity
             android:name=".HomeWork32_01Activity"
@@ -153,7 +175,38 @@
             android:name=".HomeWork35Activity"
             android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity
+            android:name=".HomeWork35_01Activity"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
             android:name=".HomeWork36Activity"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".HomeWork38Activity"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".HomeWork40Activity"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <service android:name=".HoneWork40_service"/>
+        <activity
+            android:name=".HomeWork41Activity"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".HomeWork42Activity"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".HomeWork44Activity"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".HomeWork45Activity"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".HomeWork46Activity"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".HomeWork47Activity"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".HomeWork48Activity"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

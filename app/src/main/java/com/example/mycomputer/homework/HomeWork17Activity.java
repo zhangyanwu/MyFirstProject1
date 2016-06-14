@@ -15,7 +15,6 @@ import java.util.Map;
 public class HomeWork17Activity extends BaseActivity {
     GridView gridView;
     List<Map<String ,Object>> list = new ArrayList<Map<String , Object>>();
-//    String[] food={"红烧肉","四喜丸子","大葱蘸酱","小葱豆腐","干煸芸豆","茄子"};
     int[] img ={R.drawable.icon_11, R.drawable.icon_16, R.drawable.icon_18, R.drawable.icon_28, R.drawable.icon_30, R.drawable.icon_33};
     @Override
     protected void initContentView(Bundle savedInstanceState) {
@@ -25,7 +24,6 @@ public class HomeWork17Activity extends BaseActivity {
         {
             Map<String,Object> map = new HashMap<String,Object>();
             map.put("image",img[i]);
-//            map.put("food",food[i]);
             list.add(map);
         }
         SimpleAdapter simpleAdapter=new SimpleAdapter(this,list, R.layout.img_layout,new String[]{"image"},new int[]{R.id.image});

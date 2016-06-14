@@ -4,15 +4,14 @@ import android.app.Activity;
 import android.os.Bundle;
 
 /**
- * Created by MyComputer on 2016/5/15.
+ * Created by Administrator on 2016/6/13.
  */
-public class QiuActivity extends Activity {
-
+public class HomeWork12_01Activity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-          QiuView qv=new QiuView(this);
-          qv.setOnTouchListener(qv);
-           setContentView(qv);
+        HomeWork12_1View a = new HomeWork12_1View(this);
+        a.setOnTouchListener(a);
+        setContentView(a);
     }
 }

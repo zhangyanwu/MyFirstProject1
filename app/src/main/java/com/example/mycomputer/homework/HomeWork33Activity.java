@@ -66,31 +66,18 @@ public class HomeWork33Activity extends BaseActivity implements GestureDetector.
     @Override
     public boolean onFling(MotionEvent e1, MotionEvent e2, float velocityX, float velocityY) {
 
-        if (velocityX>0) {
-            bili = (float) (bili*2+0.01);
-            matrix.reset();
-            matrix.setScale(bili, bili, 160, 200);
-            BitmapDrawable tmp = (BitmapDrawable) iv.getDrawable();
-            if (!tmp.getBitmap().isRecycled()) {
+        velocityX = velocityX > 4000 ? 4000 : velocityX;
+        velocityX = velocityX < -4000 ? -4000 : velocityX;
+        bili += bili * velocityX / 4000.0f;
+        bili = bili > 0.01 ? bili : 0.01f;
+        matrix.reset();
+        matrix.setScale(bili, bili, 160, 200);
+        BitmapDrawable tmp = (BitmapDrawable) iv.getDrawable();
+        if (!tmp.getBitmap().isRecycled()) {
                 tmp.getBitmap().recycle();
             }
-            Bitmap b = Bitmap.createBitmap(bitmap, 0, 0, width, height, matrix, true);
+        Bitmap b = Bitmap.createBitmap(bitmap, 0, 0, width, height, matrix, true);
             iv.setImageBitmap(b);
-        }if(velocityX<0){
-            if (bili<=0){
-                bili= (float) 0.01;
-            }else {
-                bili = (float) (bili/2 - 0.01);
-            }
-            matrix.reset();
-            matrix.setScale(bili, bili, 160, 200);
-            BitmapDrawable tmp = (BitmapDrawable) iv.getDrawable();
-            if (!tmp.getBitmap().isRecycled()) {
-                tmp.getBitmap().recycle();
-            }
-            Bitmap b = Bitmap.createBitmap(bitmap, 0, 0, width, height, matrix, true);
-            iv.setImageBitmap(b);
-        }
         return true;
     }
 }

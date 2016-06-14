@@ -12,6 +12,6 @@ public class HomeWork09_02Activity extends BaseActivity {
     protected void initContentView(Bundle savedInstanceState) {
         setContentView(R.layout.homework09_03_layout);
         qcb= (QuickContactBadge) findViewById(R.id.quickContactBadge);
-        qcb.assignContactFromPhone("15040138915",true);
+        qcb.assignContactFromPhone("18640031781",true);
     }
 }

@@ -13,7 +13,7 @@ import android.view.View;
 /**
  * Created by Administrator on 2016/6/1.
  */
-public class HuaBan_view extends View implements View.OnTouchListener{
+public class HomeWork30_02_view extends View implements View.OnTouchListener{
 
     DisplayMetrics dm;
     Canvas tcanvas;
@@ -24,7 +24,7 @@ public class HuaBan_view extends View implements View.OnTouchListener{
     float startY;
 
 
-    public HuaBan_view(Context context) {
+    public HomeWork30_02_view(Context context) {
         super(context);
         dm = getResources().getDisplayMetrics();
         bitmap = Bitmap.createBitmap(dm.widthPixels,dm.heightPixels, Bitmap.Config.ARGB_8888);
@@ -35,7 +35,7 @@ public class HuaBan_view extends View implements View.OnTouchListener{
         tcanvas.setBitmap(bitmap);
     }
 
-    public HuaBan_view(Context context, AttributeSet attrs) {
+    public HomeWork30_02_view(Context context, AttributeSet attrs) {
         super(context, attrs);
     }
 

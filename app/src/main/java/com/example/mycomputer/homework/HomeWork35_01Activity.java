@@ -1,5 +1,6 @@
 package com.example.mycomputer.homework;
 
+import android.content.Intent;
 import android.gesture.Gesture;
 import android.gesture.GestureLibraries;
 import android.gesture.GestureLibrary;
@@ -17,14 +18,12 @@ import java.util.ArrayList;
 public class HomeWork35_01Activity extends BaseActivity {
     GestureOverlayView gestureView;
     GestureLibrary gestureLibrary;
-
+    Intent i;
     @Override
     protected void initContentView(Bundle savedInstanceState) {
         setContentView(R.layout.homework35_01_dialog_layout);
         gestureLibrary = GestureLibraries.fromFile("/mnt/sdcard/mygestures");
-        if (gestureLibrary.load()) {
-            Toast.makeText(HomeWork35_01Activity.this, "手势加载成功!", Toast.LENGTH_SHORT).show();
-        } else {
+        if (!gestureLibrary.load()) {
             Toast.makeText(HomeWork35_01Activity.this, "手势加载失败！", Toast.LENGTH_SHORT).show();
         }
         gestureView = (GestureOverlayView) findViewById(R.id.gesture);
@@ -36,7 +35,11 @@ public class HomeWork35_01Activity extends BaseActivity {
                         for (Prediction p:predictions)
                         {
                             if(p.score>2.0){
-
+                                i=new Intent();
+                                i.setAction(Intent.ACTION_MAIN);
+                                i.addCategory(Intent.CATEGORY_HOME);
+                                startActivity(i);
+                                Toast.makeText(HomeWork35_01Activity.this, "已回桌面！", Toast.LENGTH_SHORT).show();
                             }
                         }
                     }
