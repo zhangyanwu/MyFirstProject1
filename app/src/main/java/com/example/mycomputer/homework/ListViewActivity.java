@@ -27,7 +27,7 @@ public class ListViewActivity extends BaseActivity {
             "作业36：百度语音", "作业38：短信群发", "作业40：播放音乐",
             "作业41：震动", "作业42：闹钟", "作业44：电话拦截", "作业46：网络共享api", "作业47：指南针",
             "作业48：摇一摇", "作业：股票", "作业：播放视频", "作业：传感器", "作业：录音",
-            "作业：录制视频"};
+            "作业：录制视频","定时更换壁纸"};
     Class[] cl = {HomeWork01Activity.class, HomeWork02Activity.class, HomeWork03Activity.class, HomeWork04Activity.class, HomeWork05Activity.class,
             HomeWork06_01Activity.class, HomeWork06_02Activity.class, HomeWork06_03Activity.class, HomeWork07Activity.class, HomeWork08Activity.class,
             HomeWork09Activity.class, HomeWork09_01Activity.class, HomeWork09_02Activity.class, HomeWork10_01Activity.class, HomeWork10_02Activity.class,
@@ -44,7 +44,7 @@ public class ListViewActivity extends BaseActivity {
             HomeWork36Activity.class, HomeWork38Activity.class, HomeWork40Activity.class,
             HomeWork41Activity.class, HomeWork42Activity.class, HomeWork44Activity.class, HomeWork46Activity.class, HomeWork47Activity.class,
             HomeWork48Activity.class, gupiaoActivity.class, VideoViewActivity.class, ChuanGanQiActivity.class, LuYinActivity.class,
-            ShiPinActivity.class};
+            ShiPinActivity.class,dingshibizi.class};
     ListView listView;
 
     @Override
