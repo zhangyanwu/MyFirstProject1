@@ -12,6 +12,8 @@ import android.view.MenuItem;
 
 import java.io.IOException;
 
+import butterknife.*;
+
 /**
  * Created by MyComputer on 2016/5/27.
  */
@@ -22,6 +24,7 @@ public abstract class BaseActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         try {
             initContentView(savedInstanceState);
+            butterknife.ButterKnife.bind(this);
         } catch (IOException e) {
             e.printStackTrace();
         }
