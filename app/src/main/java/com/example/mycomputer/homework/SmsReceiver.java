@@ -14,7 +14,7 @@ import android.widget.Toast;
 public class SmsReceiver extends BroadcastReceiver {
     @Override
     public void onReceive(Context context, Intent intent) {
-        Toast.makeText(context,"短信以监听",Toast.LENGTH_SHORT).show();
+        Toast.makeText(context,"短信已监听",Toast.LENGTH_SHORT).show();
         if (intent.getAction().equals("android.provider.Telephony.SMS_RECEIVED"))
         {
             abortBroadcast();
